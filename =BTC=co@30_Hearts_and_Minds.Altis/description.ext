@@ -1,8 +1,9 @@
 
-loadScreen = "core\img\btc.paa";
-author = Giallustio;
+loadScreen = "img\BVMC-Logo.paa";
+author = Giallustio / 1stBEAST / form;
+
 onLoadName = Hearts and Minds;
-onLoadMission = www.blacktemplars.altervista.org;
+onLoadMission = www.blue-vengeance.de;
 
 #include "core\def\dlg_def.hpp"
 
@@ -33,3 +34,23 @@ class RscTitles {
 #include "core\def\functions.hpp"
 
 #include "core\fnc\eh\extended_InitPost_EH.hpp"
+
+/*--------- Stuff - Pflicht ---------*/
+
+disabledAI = 1; //Deaktiviert AI in der Slotliste
+enableDebugConsole = 1; //Erlaubt die Nutzung der Debug-Console für Admins
+aikills = 1; // When 1, the score table contains score of all playable units as opposed to players only.
+
+/*--------- Chat - Optional ---------*/
+
+/*
+0 = Global
+1 = Side
+2 = Command
+3 = Group
+4 = Vehicle
+5 = Direct
+6 = System
+*/
+
+disableChannels[]={0,1,2,6};

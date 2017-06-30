@@ -44,16 +44,16 @@ class Params {
 	class btc_p_en {
 	//paramsArray[6]
 		title = "			Enemy type:";
-		values[]={0,1,2,3,4,5,6,7,8,9,10};
-		texts[]={"Guerrilla (A3)","CAF (@CAF Aggressors)","AAF (A3)","RHS Insurgents (@RHS_AFRF)","Militia (@=BTC= Militia)","Militia (@IWAR: Irregular Warfare)","Syndikat (A3)","Middle East Militia (@Project Opfor)","ISTS (@Project Opfor)","Ultranationalists (@Project Opfor)","CSAT Pacific (A3)"};
-		default = 0;
+		values[]={0,1,2,3,4,5,6,7,8,9,10,11};
+		texts[]={"Guerrilla (A3)","CAF (@CAF Aggressors)","AAF (A3)","RHS Insurgents (@RHS_AFRF)","Militia (@=BTC= Militia)","Militia (@IWAR: Irregular Warfare)","Syndikat (A3)","Middle East Militia (@Project Opfor)","ISTS (@Project Opfor)","Ultranationalists (@Project Opfor)","CSAT Pacific (A3)","Mudschahedin (@Taliban)"};
+		default = 11;
 	};
 	class btc_p_civ {
 	//paramsArray[7]
 		title = "			Civil type:";
 		values[]={0,1,2,3,4,5};
-		texts[]={"Civilian (A3)","Afghan (@Ericj_Taliban)","Afghan (@=BTC= Militia)","Russian (@RDS A2 Civilian Pack)","A2 civils (@CUP Units)", "Eastern Europe civils (@Project Opfor)"};
-		default = 0;
+		texts[]={"Civilian (A3)","Afghan (@Taliban)","Afghan (@=BTC= Militia)","Russian (@RDS A2 Civilian Pack)","A2 civils (@CUP Units)", "Eastern Europe civils (@Project Opfor)"};
+		default = 1;
 	};
 	class btc_p_civ_veh {
 	//paramsArray[8]
@@ -137,7 +137,7 @@ class Params {
 	   title = "			Medical Level";
 	   values[] = {1,2};
 	   texts[] = {"Basic","Advanced"};
-	   default = 1;
+	   default = 2;
 	};
 	class btc_p_adv_wounds {
 		//paramsArray[20]
@@ -151,7 +151,7 @@ class Params {
 		title = "			Revive time:";
 		values[]={0,60,120,180,240,300,600,900,1200,999999};
 		texts[]={"0","60","120","180","240","300","600","900","1200","999999"};
-		default = 600;
+		default = 900;
 	};
 	class btc_p_skill_title {
 	//paramsArray[22]

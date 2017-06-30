@@ -20,3 +20,17 @@ if (!isDedicated && hasInterface) then {
 if (!isDedicated && !hasInterface) then {
 	call compile preprocessFile "core\init_headless.sqf";
 };
+
+/*--------- Standard ---------*/
+
+TF_give_microdagr_to_soldier = false; // Verhindert das automatische zuteilen von Microdagren
+tf_no_auto_long_range_radio = true; // Verhindert das automatische zuteilen von Rucksack-Funkgeraeten
+CHVD_allowNoGrass = false; // Deaktiviert den "No gras" Punkt im Sichtweiten-Menue
+CHVD_maxView = 3000;
+CHVD_maxObj = 3000;
+
+/*--------- Textures ---------*/
+
+if(isServer) then {
+	sign_1 setObjectTextureGlobal [0, "img\Equipment-Sign.paa"];
+};
