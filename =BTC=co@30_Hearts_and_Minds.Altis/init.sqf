@@ -32,5 +32,6 @@ CHVD_maxObj = 3000;
 /*--------- Textures ---------*/
 
 if(isServer) then {
-	sign_1 setObjectTextureGlobal [0, "img\Equipment-Sign.paa"];
+	sign_1 setObjectTextureGlobal [0, "img\Equipment-Sign_US.paa"];
+	sign_2 setObjectTextureGlobal [0, "img\Equipment-Sign_UK.paa"];
 };

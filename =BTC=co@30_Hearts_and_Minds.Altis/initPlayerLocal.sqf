@@ -51,3 +51,11 @@ sign_1 addAction ["Scout Sniper M40 (<t color='#ffff7f'>Desert</t>)", "execVM 'l
 sign_1 addAction ["Scout Sniper M40 (<t color='#00ff00'>Wood</t>)</t>)", "execVM 'loadouts\Scout_Sniper_M40_W.hpp';", nil, 100, false, true, "", ""];
 sign_1 addAction ["Scout Sniper Heavy (<t color='#ffff7f'>Desert</t>)", "execVM 'loadouts\Scout_Sniper_Heavy_D.hpp';", nil, 100, false, true, "", ""];
 sign_1 addAction ["Scout Sniper Heavy (<t color='#00ff00'>Wood</t>)</t>)", "execVM 'loadouts\Scout_Sniper_Heavy_W.hpp';", nil, 100, false, true, "", ""];
+
+sign_2 addAction ["UK Teamleader", "execVM 'loadouts\UK_Teamleader.hpp';", nil, 100, false, true, "", ""];
+sign_2 addAction ["UK Medic", "execVM 'loadouts\UK_Medic.hpp';", nil, 100, false, true, "", ""];
+sign_2 addAction ["UK Rifleman", "execVM 'loadouts\UK_Rifleman.hpp';", nil, 100, false, true, "", ""];
+sign_2 addAction ["UK Grenadier", "execVM 'loadouts\UK_Grenadier.hpp';", nil, 100, false, true, "", ""];
+sign_2 addAction ["UK SAW Gunner", "execVM 'loadouts\UK_SAW_Gunner.hpp';", nil, 100, false, true, "", ""];
+sign_2 addAction ["UK LMG Gunner", "execVM 'loadouts\UK_LMG_Gunner.hpp';", nil, 100, false, true, "", ""];
+sign_2 addAction ["UK Radioman / DMR", "execVM 'loadouts\UK_Radioman_DMR.hpp';", nil, 100, false, true, "", ""];
