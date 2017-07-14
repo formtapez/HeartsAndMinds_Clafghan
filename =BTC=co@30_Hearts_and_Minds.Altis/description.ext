@@ -54,3 +54,4 @@ aikills = 1; // When 1, the score table contains score of all playable units as 
 */
 
 disableChannels[]={0,1,2,6};
+

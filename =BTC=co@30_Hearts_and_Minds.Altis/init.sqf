@@ -25,13 +25,12 @@ if (!isDedicated && !hasInterface) then {
 
 TF_give_microdagr_to_soldier = false; // Verhindert das automatische zuteilen von Microdagren
 tf_no_auto_long_range_radio = true; // Verhindert das automatische zuteilen von Rucksack-Funkgeraeten
-CHVD_allowNoGrass = false; // Deaktiviert den "No gras" Punkt im Sichtweiten-Menue
-CHVD_maxView = 3000;
-CHVD_maxObj = 3000;
 
 /*--------- Textures ---------*/
 
 if(isServer) then {
 	sign_1 setObjectTextureGlobal [0, "img\Equipment-Sign_US.paa"];
 	sign_2 setObjectTextureGlobal [0, "img\Equipment-Sign_UK.paa"];
+	sign_3 setObjectTextureGlobal [0, "img\Equipment-Sign_US.paa"];
+	sign_4 setObjectTextureGlobal [0, "img\Equipment-Sign_UK.paa"];
 };
