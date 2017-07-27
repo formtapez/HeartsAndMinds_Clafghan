@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="TargetGUI">
+	<Package name="GUIlocalize">
+		<Container name="MainGUI">
+			<Key ID="STR_TER_copyData">
+				<Original>Copy data to clipboard</Original>
+				<English>Copy data to clipboard</English>
+				<German>Daten kopieren</German>
+			</Key>
+			<Key ID="STR_TER_activate">
+				<Original>Activate target</Original>
+				<English>Activate target</English>
+				<German>Ziel hochklappen</German>
+			</Key>
+			<Key ID="STR_TER_deactivate">
+				<Original>Deactivate target</Original>
+				<English>Deactivate target</English>
+				<German>Ziel runterklappen</German>
+			</Key>
+			<Key ID="STR_TER_txtTarget">
+				<Original>Target: </Original>
+				<English>Target: </English>
+				<German>Ziel: </German>
+			</Key>
+			<Key ID="STR_TER_txtShooter">
+				<Original>Shooter: </Original>
+				<English>Shooter: </English>
+				<German>Schütze: </German>
+			</Key>
+			<Key ID="STR_TER_txtWeapon">
+				<Original>Weapon: </Original>
+				<English>Weapon: </English>
+				<German>Waffe: </German>
+			</Key>
+			<Key ID="STR_TER_txtDistance">
+				<Original>Distance: </Original>
+				<English>Distance: </English>
+				<German>Entfernung: </German>
+			</Key>
+			<Key ID="STR_TER_txtAccuracy">
+				<Original>Accuracy: </Original>
+				<English>Accuracy: </English>
+				<German>Genauigkeit: </German>
+			</Key>
+			<Key ID="STR_TER_txtMagazine">
+				<Original>Magazine: </Original>
+				<English>Magazine: </English>
+				<German>Magazin: </German>
+			</Key>
+		</Container>
+	</Package>
+</Project>

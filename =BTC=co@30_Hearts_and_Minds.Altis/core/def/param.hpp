@@ -263,7 +263,7 @@ class Params {
 		title = "			Extend battlefield to sea:";
 		values[] = {0,1};
 		texts[] = {"Off","On"};
-		default = 1;
+		default = 0;
 	};
 	class btc_p_city_radius {
 	//paramsArray[38]

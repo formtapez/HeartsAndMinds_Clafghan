@@ -1,3 +1,5 @@
+#include "TER_targetGUI\addEH.sqf"
+
 /*--------- Functions ---------*/
 
 TA_fnc_loadoutUnit = {
@@ -97,5 +99,6 @@ sign_4 addAction ["UK SAW Gunner", "execVM 'loadouts\UK_SAW_Gunner.hpp';", nil, 
 sign_4 addAction ["UK LMG Gunner", "execVM 'loadouts\UK_LMG_Gunner.hpp';", nil, 100, false, true, "", ""];
 sign_4 addAction ["UK Radioman / DMR", "execVM 'loadouts\UK_Radioman_DMR.hpp';", nil, 100, false, true, "", ""];
 
+flag_base addAction ["Schiessuebung", {createDialog "TER_target";}];
 flag_base addAction ["Air Base", {player setPos (getMarkerPos "pos_airbase");}];
 flag_airbase addAction ["Home Base", {player setPos (getMarkerPos "pos_base");}];
