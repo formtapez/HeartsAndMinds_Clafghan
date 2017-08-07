@@ -1,0 +1,60 @@
+comment "Exported from Arsenal by 1stBEAST";
+
+comment "Remove existing items";
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeUniform player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+removeGoggles player;
+
+comment "Add containers";
+player forceAddUniform "UK3CB_BAF_U_Smock_MTP";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_epinephrine";};
+for "_i" from 1 to 5 do {player addItemToUniform "ACE_morphine";};
+player addItemToUniform "ACE_EarPlugs";
+for "_i" from 1 to 10 do {player addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 10 do {player addItemToUniform "ACE_packingBandage";};
+player addItemToUniform "ACE_Flashlight_XL50";
+player addItemToUniform "ACE_IR_Strobe_Item";
+for "_i" from 1 to 5 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 5 do {player addItemToUniform "ACE_fieldDressing";};
+player addVest "UK3CB_BAF_V_PLCE_Webbing_Plate_MTP";
+for "_i" from 1 to 3 do {player addItemToVest "BWA3_DM51A1";};
+for "_i" from 1 to 10 do {player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
+for "_i" from 1 to 6 do {player addItemToVest "1Rnd_HE_Grenade_shell";};
+player addBackpack "UK3CB_BAF_B_Bergen_MTP_Medic_H_B";
+for "_i" from 1 to 6 do {player addItemToBackpack "ACE_bloodIV";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_personalAidKit";};
+for "_i" from 1 to 15 do {player addItemToBackpack "ACE_packingBandage";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 15 do {player addItemToBackpack "ACE_elasticBandage";};
+for "_i" from 1 to 15 do {player addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_bloodIV_250";};
+for "_i" from 1 to 4 do {player addItemToBackpack "ACE_bloodIV_500";};
+for "_i" from 1 to 4 do {player addItemToBackpack "ACE_tourniquet";};
+for "_i" from 1 to 15 do {player addItemToBackpack "ACE_quikclot";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_atropine";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_adenosine";};
+player addItemToBackpack "ACE_EntrenchingTool";
+player addItemToBackpack "ACE_NVG_Wide";
+player addHeadgear "H_Watchcap_khk";
+player addGoggles "G_Bandanna_shades";
+
+comment "Add weapons";
+player addWeapon "rhs_weap_m4a1_blockII_M203_d";
+player addPrimaryWeaponItem "UK3CB_BAF_LLM_Flashlight_Tan";
+player addPrimaryWeaponItem "RKSL_optic_LDS_C";
+
+comment "Add items";
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "ACE_Altimeter";
+player linkItem "tf_anprc152_5";
+player linkItem "BWA3_ItemNaviPad";
+
+comment "Set identity";
+player setSpeaker "ace_novoice";

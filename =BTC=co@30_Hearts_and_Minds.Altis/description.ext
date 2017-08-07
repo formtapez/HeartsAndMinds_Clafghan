@@ -55,6 +55,3 @@ aikills = 1; // When 1, the score table contains score of all playable units as 
 
 
 disableChannels[]={0,1,2,6};
-
-#include "TER_TargetGUI\defines_A3.hpp"
-#include "TER_TargetGUI\TER_target.hpp"

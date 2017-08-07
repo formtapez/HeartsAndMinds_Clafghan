@@ -21,7 +21,8 @@
 
 	if (player getVariable ["interpreter", false]) then {player createDiarySubject ["Diary log","Diary log"];};
 
-	removeAllWeapons player;
+// dont mess with custom loadout
+//	removeAllWeapons player;
 
 	waitUntil {scriptDone btc_intro_done};
 	{[_x] call btc_fnc_task_create} foreach ((player call BIS_fnc_tasksUnit) select {[_x] call BIS_fnc_taskState isEqualTo "ASSIGNED"});

@@ -25,7 +25,7 @@ class Params {
 		title = "			Load the savegame (if available)";
 		values[]={0,1};
 		texts[]={"No","Yes"};
-		default = 1;
+		default = 0;
 	};
 	class btc_p_auto_db {
 	//paramsArray[4]
