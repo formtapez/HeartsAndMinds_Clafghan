@@ -37,9 +37,7 @@ class RscTitles {
 
 /*--------- Stuff - Pflicht ---------*/
 
-disabledAI = 1; //Deaktiviert AI in der Slotliste
 enableDebugConsole = 1; //Erlaubt die Nutzung der Debug-Console für Admins
-aikills = 1; // When 1, the score table contains score of all playable units as opposed to players only.
 
 /*--------- Chat - Optional ---------*/
 
