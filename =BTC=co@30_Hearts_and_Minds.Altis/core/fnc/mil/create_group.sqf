@@ -26,7 +26,7 @@ if (_pos_iswater) then {
 };
 
 _group = createGroup btc_enemy_side;
-_group createUnit [_unit_type, _rpos, [], 0, "NONE"];
+[_group createUnit [_unit_type, _rpos, [], 0, "NONE"]] joinSilent _group;
 (leader _group) setpos _rpos;
 _in_house = false;
 
@@ -38,7 +38,7 @@ switch (true) do {
 			_in_house = true;
 			_house = selectRandom _houses;
 			[_group,_house] spawn btc_fnc_house_addWP;
-			_group setVariable ["inHouse",_house];
+			_group setVariable ["inHouse", typeOf _house];
 		} else {[_group,_rpos,_area,"SAFE",_pos_iswater] spawn btc_fnc_task_patrol;};
 	};
 	case (_wp > 0.3 && _wp < 0.75) : {
@@ -55,7 +55,7 @@ switch (true) do {
 if (!_in_house) then {
 	for "_i" from 0 to _n do {
 		_unit_type = [selectRandom btc_type_units, selectRandom btc_type_divers ] select _pos_iswater;
-		_group createUnit [_unit_type, _rpos, [], 0, "NONE"];
+		[_group createUnit [_unit_type, _rpos, [], 0, "NONE"]] joinSilent _group;
 		sleep 0.5;
 	};
 	//_group createUnit [btc_type_medic, _pos, [], 0, "NONE"];

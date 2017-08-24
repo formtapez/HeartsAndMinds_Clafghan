@@ -5,4 +5,4 @@ koffer addAction ["Caphis Trooperbox", "execVM 'loadouts\caphi.hpp';", nil, 100,
 koffer addAction ["forms Rucksack des Todes", "execVM 'loadouts\form.hpp';", nil, 100, false, true, "", ""];
 koffer addAction ["Joernrichs Kulturtasche", "execVM 'loadouts\joern.hpp';", nil, 100, false, true, "", ""];
 koffer addAction ["Rages Rettungsdecke", "execVM 'loadouts\rage.hpp';", nil, 100, false, true, "", ""];
-koffer addAction ["Steve-Os Pflastersortiment", "execVM 'loadouts\steveo.hpp';", nil, 100, false, true, "", ""];
+koffer addAction ["Stevoos Pflastersortiment", "execVM 'loadouts\steveo.hpp';", nil, 100, false, true, "", ""];

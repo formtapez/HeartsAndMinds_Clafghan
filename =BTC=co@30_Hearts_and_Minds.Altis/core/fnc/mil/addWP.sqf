@@ -27,7 +27,7 @@ switch (true) do {
 			_in_house = true;
 			_house = selectRandom _houses;
 			[_group,_house] spawn btc_fnc_house_addWP;
-			_group setVariable ["inHouse",_house];
+			_group setVariable ["inHouse", typeOf _house];
 		} else {[_group,_rpos,_area,"SAFE"] call btc_fnc_task_patrol;};
 	};
 	case (_wp > 0.3 && _wp < 0.75) : {
@@ -40,6 +40,8 @@ switch (true) do {
 		_wpa setWaypointCombatMode "RED";
 		_wpa setWaypointBehaviour "AWARE";
 		_wpa setWaypointFormation "WEDGE";
+		_wpa setWaypointTimeout [18000, 36000, 54000];
+		_wpa setWaypointStatements ["true","(group this) spawn btc_fnc_data_add_group;"];
 	};
 };
 
