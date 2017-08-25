@@ -57,13 +57,13 @@ class Params {
 		title = "			Civil type:";
 		values[]={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 		texts[]={"0 - EricJ: Afghan Civilians (Side: CIV)","1 - Bohemia Interactive: Civils (Side: CIV)","2 -btc_militia_mod Giallustio: Afghan Civilians (Side: CIV)","3 -CAF CAF MOD TEAM: African (Side: CIV)","4 -CAF CAF MOD TEAM: Middle Eastern (Side: CIV)","5 -CUP_Units Community Upgrade Project: Civilians (Russian) (Side: CIV)","6 -CUP_Vehicles Bohemia Interactive: Civilians (Chernarus) (Side: CIV)","7 -CUP_Vehicles Bohemia Interactive: Civilians (Sahrani) (Side: CIV)","8 -CUP_Vehicles Community Upgrade Project: Civilians (Takistan) (Side: CIV)","9 -LIB Reyhard & Joarius: 40s Civilians (Side: CIV)","10 -LOP_LeightsOPFOR Project OPFOR: African Civilians (Side: CIV)","11 -LOP_LeightsOPFOR Project OPFOR: Eastern European Civilians (Side: CIV)","12 -LOP_LeightsOPFOR Project OPFOR: Middle Eastern Civilians (Side: CIV)","13 -OPTRE Bohemia Interactive: Civilians (UEG) (Side: CIV)","14 -RDS_CIV_PACK reyhard: Russians (Side: CIV)","15 -UNSUNG Bohemia Interactive: Vietnamese (UNSUNG) (Side: CIV)"};
-		default = 1;
+		default = 0;
 	};
 	class btc_p_civ_veh {
 		title = "			Civil vehicle type:";
 		values[]={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 		texts[]={"0 - EricJ: Afghan Civilians (Side: CIV)","1 - Bohemia Interactive: Civils (Side: CIV)","2 -btc_militia_mod Giallustio: Afghan Civilians (Side: CIV)","3 -CAF CAF MOD TEAM: African (Side: CIV)","4 -CAF CAF MOD TEAM: Middle Eastern (Side: CIV)","5 -CUP_Units Community Upgrade Project: Civilians (Russian) (Side: CIV)","6 -CUP_Vehicles Bohemia Interactive: Civilians (Chernarus) (Side: CIV)","7 -CUP_Vehicles Bohemia Interactive: Civilians (Sahrani) (Side: CIV)","8 -CUP_Vehicles Community Upgrade Project: Civilians (Takistan) (Side: CIV)","9 -LIB Reyhard & Joarius: 40s Civilians (Side: CIV)","10 -LOP_LeightsOPFOR Project OPFOR: African Civilians (Side: CIV)","11 -LOP_LeightsOPFOR Project OPFOR: Eastern European Civilians (Side: CIV)","12 -LOP_LeightsOPFOR Project OPFOR: Middle Eastern Civilians (Side: CIV)","13 -OPTRE Bohemia Interactive: Civilians (UEG) (Side: CIV)","14 -RDS_CIV_PACK reyhard: Russians (Side: CIV)","15 -UNSUNG Bohemia Interactive: Vietnamese (UNSUNG) (Side: CIV)"};
-		default = 1;
+		default = 0;
 	};
 	class btc_p_IED_title {
 		title = "<< IED options >>";

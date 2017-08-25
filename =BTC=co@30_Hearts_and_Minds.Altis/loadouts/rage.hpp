@@ -41,6 +41,7 @@ for "_i" from 1 to 5 do {player addItemToBackpack "ACE_atropine";};
 for "_i" from 1 to 5 do {player addItemToBackpack "ACE_adenosine";};
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_NVG_Wide";
+player addItemToBackpack "ACE_surgicalKit";
 player addHeadgear "H_Watchcap_khk";
 player addGoggles "G_Bandanna_shades";
 
